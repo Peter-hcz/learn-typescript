@@ -1,17 +1,19 @@
 module.exports = {
-    base: '/learn-typescript/',
-  
-// 开启目录结构（可选）
-// themeConfig: {
-//     subSidebar: 'auto'
-// },
-// 设置时间格式
-locales: {
-    '/': {
-        lang: 'zh-CN'
-    }
-},
-// 引用主题 vuepress-theme-reco 
+    // base: '/learn-typescript/',
+    base: './',
+    dest: './dist',
+
+    // 开启目录结构（可选）
+    // themeConfig: {
+    //     subSidebar: 'auto'
+    // },
+    // 设置时间格式
+    locales: {
+        '/': {
+            lang: 'zh-CN'
+        }
+    },
+    // 引用主题 vuepress-theme-reco 
     theme: 'reco',
     title: '小雨写立可白',   //首页标题
     description: 'Just playing around', //首页描述
@@ -53,7 +55,7 @@ locales: {
 
 
 // module.exports = {
-//     // 引用主题 vuepress-theme-reco 
+//     // 引用主题 vuepress-theme-reco
 //     // theme: 'reco',
 //     title: "某个前端文档网站", // 首页标题
 //     shouldPrefetch: () => false, // 关闭预加载，可能导致首页渲染比较慢
