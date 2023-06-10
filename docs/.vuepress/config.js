@@ -1,5 +1,6 @@
 module.exports = {
     base: '/learn-typescript/',
+  
 // 开启目录结构（可选）
 // themeConfig: {
 //     subSidebar: 'auto'
@@ -36,12 +37,13 @@ locales: {
                 ]
             },
             {
-                title: "基础学习",
+                title: "博客搭建",
                 path: '/handbook/ConditionalTypes',
                 collapsable: false, // 不折叠
                 children: [
-                    { title: "第一篇", path: "/handbook/ConditionalTypes" },
-                    { title: "第二篇", path: "/handbook/Generics" },
+                    { title: "第一篇", path: "/handbook/blog1" },
+                    // { title: "第一篇", path: "/handbook/ConditionalTypes" },
+                    // { title: "第二篇", path: "/handbook/Generics" },
                 ],
             }
         ]
