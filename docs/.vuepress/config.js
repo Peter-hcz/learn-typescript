@@ -21,18 +21,18 @@ locales: {
             {
                 text: '小雨写立可白的博客',
                 items: [
-                    { text: 'Github', link: '...' },
+                    { text: 'Github', link: 'https://github.com/Peter-hcz/learn-typescript' },
                     { text: '掘金', link: '...' }
                 ]
             }
         ],
         sidebar: [
             {
-                title: '欢迎学习',
+                title: '博客概述',
                 path: '/',
                 collapsable: false, // 不折叠
                 children: [
-                    { title: "学前必读", path: "/" }
+                    { title: "博客介绍", path: "/" }
                 ]
             },
             {
