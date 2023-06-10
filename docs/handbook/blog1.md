@@ -1,4 +1,10 @@
-# 一、本地搭建
+# 本地搭建
+
+```
+作者: 小雨写立可白
+时间: '2023-06-10'
+```
+
 1、创建并更改为新目录
 ```html
 mkdir vuepress-starter && cd vuepress-starter
