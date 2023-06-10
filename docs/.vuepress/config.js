@@ -1,6 +1,6 @@
 module.exports = {
     // base: '/learn-typescript/',
-    base: './',
+    base: '/learn-typescript/',
     dest: './dist',
 
     // 开启目录结构（可选）
